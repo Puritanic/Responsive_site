@@ -65,7 +65,8 @@
     padding: 0 1 rem;
     transition: .5 s ease - out
 }.nav.navbar a: after { content: "";display: block;height: 5 px;width: 0;transition: width .3 s ease - out, background - color .3 s ease - out }.header.header - info.header - info - text { display: none }
-@media(min - width: 576 px) {.header.header - info.header - info - text { display: block;font - size: 1.17 rem;line - height: 135 % }.header.header - info.header - info - text a: link, .header.header - info.header - info - text a: visited {
+@media(min - width: 576 px) {.header.header - info.header - info - text { display: block;font - size: 1.17 rem;line - height: 135 % }.header.header - info.header - info - text a: link,
+        .header.header - info.header - info - text a: visited {
         font - size: 1.56 rem;
         color: #f5dc73
     }
@@ -84,7 +85,8 @@
 @media(min - width: 768 px) {.header.header - info.header - info - subheadline { font - size: 1.95 rem } }
 @media(min - width: 992 px) {.header.header - info.header - info - subheadline { font - size: 1.95 rem } }
 @import url("https://fonts.googleapis.com/css?family=Work+Sans:100,300,500,700"); * , : after, : before { box - sizing: border - box }
-body { color: #fff;background - color: #0076a3;font-family:Work Sans,-apple-system,system-ui,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,Arial,sans-serif;font-weight:300;font-size:20.8px;font-size:1.3rem;line-height:150%;margin:0;overflow-x:hidden}a:link,a:visited{color:# f3d350;font - weight: 500;text - decoration: none }
+body { color: #fff;background - color: #0076a3;font-family:Work Sans,-apple-system,system-ui,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,Arial,
+        sans-serif;font-weight:300;font-size:20.8px;font-size:1.3rem;line-height:150%;margin:0;overflow-x:hidden}a:link,a:visited{color:# f3d350;font - weight: 500;text - decoration: none }
 a: focus, a: hover { text - decoration: underline }
 p {
     margin - top: 0;
@@ -104,7 +106,7 @@ h1, h2, h3, h4, h5, h6 {
     margin - top: 0;
     margin - bottom: 16 px;
     margin - bottom: 1 rem
-}.header { color: #fff;display: -webkit - box;display: -ms - flexbox;display: flex; - webkit - box - orient: horizontal; - webkit - box - direction: normal; - ms - flex - direction: row;flex - direction: row; - ms - flex - wrap: wrap;flex - wrap: wrap; - ms - flex - line - pack: justify;align - content: space - between;height: 100 vh;background: linear - gradient(rgba(243, 211, 80, .2), transparent 50 % , rgba(0, 0, 0, .8) 90 % ), url('./assets/images/hero/appwoman.jpg') no - repeat bottom;background - size: cover }.header.header - info { width: 100 % ;text - align: center;margin - bottom: 30 px }.header.header - info.header - info - headline {
+}.header { color: #fff;display: -webkit - box;display: -ms - flexbox;display: flex; - webkit - box - orient: horizontal; - webkit - box - direction: normal; - ms - flex - direction: row;flex - direction: row; - ms - flex - wrap: wrap;flex - wrap: wrap; - ms - flex - line - pack: justify;align - content: space - between;height: 100 vh;background: linear - gradient(rgba(243, 211, 80, .2), transparent 50 % , rgba(0, 0, 0, .8) 90 % ), url('../images/hero/appwoman.jpg') no - repeat bottom;background - size: cover }.header.header - info { width: 100 % ;text - align: center;margin - bottom: 30 px }.header.header - info.header - info - headline {
     font - size: 45.76 px;
     font - size: 2.86 rem;
     width: 90 % ;
